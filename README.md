@@ -68,7 +68,13 @@ Or:
 $.tooltipster.startSelectable(
 	$('#myelement').next(),
 	function(instance, selectedText) {
-		return $('<span><img src="image.jpg" /> Hello world</span>');
+		
+		// some kind of asynchronous task
+		setTimeout(function() {
+			instance.content('My tooltip content');
+		}, 2000);
+	
+		return $('<span><img src="spinner.gif" /> Loading...</span>');
 	}
 );
 ```
