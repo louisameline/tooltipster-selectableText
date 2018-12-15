@@ -4,7 +4,7 @@ A [Tooltipster](http://iamceege.github.io/tooltipster/) plugin to make a tooltip
 
 Demo: https://jsfiddle.net/5xqqmrt6/41/
 
-##Installation
+## Installation
 
 Include the plugin file in your page AFTER the Tooltipster file.
 
